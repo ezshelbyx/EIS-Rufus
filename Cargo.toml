@@ -1,0 +1,11 @@
+[package]
+name = "eis-rufus"
+version = "0.1.0"
+edition = "2021"
+description = "EIS-Rufus - E.I.S Storage Suite component"
+
+[dependencies]
+eis-storage-core = { path = "../EIS-Storage-Core" }
+
+[profile.release]
+opt-level = 3
